@@ -1,0 +1,31 @@
+body {
+    background-color: #a1bcd1;
+}
+
+.slide-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a1bcd1;
+    height: 90vh;
+    width: 100%;
+    padding: 5vw;
+}
+  
+.slide-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+  
+.slide-item > h2 {
+    font-family: Marker Felt, fantasy;
+    font-size: 40px;
+    font-weight: 800;
+}
+  
+.slide-item > p {
+    font-family: Optima, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}

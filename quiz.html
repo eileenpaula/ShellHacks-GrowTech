@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Grow Tech</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+        <link href="/ShellHacks/nav.css" rel="stylesheet" type="text/css" />
+        <link href="/ShellHacks/quiz.css" rel="stylesheet" type="text/css" />
+        <script src="/ShellHacks/quiz.js" defer></script>
+    </head>
+    <body>
+        <!-- Nav Bar -->
+        <header class="nav">
+          <!-- Title -->
+          <h1 class="title">Grow Tech</h1>
+          <ul class="main">
+              <!-- Home Tab -->
+              <li><a href="index.html">Home</a></li>
+              <!-- Roles Tab -->
+              <li><a href="roles.html">Roles</a></li>
+              <!-- Statistics Tab -->
+              <li><a href="statistics.html">Statistics</a></li>
+              <!-- Quiz Tab -->
+              <li><a href="quiz.html">Quiz</a></li>
+              <!-- Resources Tab -->
+              <li><a href="resources.html">Resources</a></li>
+          </ul>
+      </header>
+        <!-- Quiz Page -->
+        <section>
+            <div class="container has-text-centered">
+              <section class="section">
+                <h2>Take this quiz to predict a tech position your personality is suited for. This may help you narrow down an entry-level role that you'll like.</h2>
+              </section>
+                <!-- Question 1 -->
+                <section class="section">
+                  <h1 class="title">How would your friends describe you?</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="friendDescribe-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Skeptical</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="friendDescribe-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">A Leader</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="friendDescribe-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Strategic</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="friendDescribe-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Creative</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Question 2 -->
+                <section id="q2" class="section hidden">
+                  <h1 class="title">How would you describe yourself?</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="selfDescribe-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Very Introverted</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="selfDescribe-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Somewhat Introverted</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="selfDescribe-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Somewhat Extroverted</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="selfDescribe-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Very Extroverted</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Question 3 -->
+                <section id="q3" class="section hidden">
+                  <h1 class="title">What would you rather do?</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="assignment-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Research Paper</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="assignment-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Presentation</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="assignment-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Make Something Work</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="assignment-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Make A Diorama</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Question 4 -->
+                <section id="q4" class="section hidden">
+                  <h1 class="title">Define Success.</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="success-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">High Income</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="success-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Significant Role</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="success-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Able To Make Decisions</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="success-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Work-Life Balance</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Question 5 -->
+                <section id="q5" class="section hidden">
+                  <h1 class="title">How do you make decisions?</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="decision-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Analyze Options</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="decision-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Make Predictions</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="decision-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Ask Friends</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="decision-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Social Media Poll</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Question 6 -->
+                <section id="q6" class="section hidden">
+                  <h1 class="title">What best describes your thoughts on working in groups?</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="group-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Refuse To Work In Groups</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="group-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Prefer To Work Solo</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="group-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Like Groups If I Lead Them</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="group-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Love Groups</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Question 7 -->
+                <section id="q7" class="section hidden">
+                  <h1 class="title">What is your ideal job?</h1>
+                  <!-- Answer Choices -->
+                  <div class="container">
+                    <div class="columns">
+                      <!-- A -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="job-0"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Solving Large Problems</div>
+                        </figure>
+                      </div>
+                      <!-- B -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="job-1"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Leading A Team</div>
+                        </figure>
+                      </div>
+                      <!-- C -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="job-2"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Producing Results at Fast Pace</div>
+                        </figure>
+                      </div>
+                      <!-- D -->
+                      <div class="column has-text-centered">
+                        <figure
+                          id="job-3"
+                          class="card-image card notification has-background-light is-inline-block"
+                        >
+                            <div class="subtitle">Creating New Ideas</div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          
+                <!-- Final Answer 1 (-, -) -->
+                  <section id="leader-introvert" class="section hidden">
+                  <div class="container">
+                    <h1 class="title">You are a Data Analyst!</h1>
+                    <div class="columns">
+                      <div class="column has-text-centered">
+                        <figure
+                          class="image card notification has-background-light is-inline-block"
+                        >
+                          <div class="container">
+                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data_Analyst_Job_Description.jpg" alt="Data Analyst. Image from https://www.simplilearn.com/data-analyst-job-description-article" />
+                          </div>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                  
+                <!-- Final Answer 2 (-, +) -->
+                <section id="leader-extrovert" class="section hidden">
+                    <div class="container">
+                      <h1 class="title">You are a Project Manager!</h1>
+                      <div class="columns">
+                        <div class="column has-text-centered">
+                          <figure
+                            class="image card notification has-background-light is-inline-block"
+                          >
+                            <div class="container">
+                              <img src="https://media.planview.com/clarizen/wp-content/upload/2017/05/Top-Qualities.jpg" alt="Project Manager. Image from https://blog.planview.com/top-qualities-effective-project-manager/" />
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            
+                <!-- Final Answer 3 (+, -) -->
+                <section id="creative-introvert" class="section hidden">
+                    <div class="container">
+                      <h1 class="title">You are a Software Engineer!</h1>
+                      <div class="columns">
+                        <div class="column has-text-centered">
+                          <figure
+                            class="image card notification has-background-light is-inline-block"
+                          >
+                            <div class="container">
+                              <img src="https://www.theladders.com/wp-content/uploads/coder_190517-800x450.jpg" alt="Software Engineer. Image from https://www.theladders.com/career-advice/what-is-software-engineering" />
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+            
+                <!-- Final Answer 4 (+, +) -->
+                <section id="creative-extrovert" class="section hidden">
+                    <div class="container">
+                      <h1 class="title">You are a UX Designer!</h1>
+                      <div class="columns">
+                        <div class="column has-text-centered">
+                          <figure
+                            class="image card notification has-background-light is-inline-block"
+                          >
+                            <div class="container">
+                              <img src="https://smsh-862737-juc1ugur1qwqqqo4.stackpathdns.com/2569356/wp-content/uploads/2020/08/AdobeStock_267332862-1400x933.jpeg?" alt="UX Designer. Image from https://kenzie.snhu.edu/blog/what-does-a-ux-designer-do/" />
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+            
+                <!-- Take Again -->
+                <section id="take-again" class="section hidden">
+                    <div class="container">
+                      <h1 class="subtitle">Want to try again?</h1>
+                      <button id = "take-again-button" class = "button is-info is-light">Take Again</button>
+                    </div>
+                </section>
+                  
+              </div> 
+        </section>
+    </body>

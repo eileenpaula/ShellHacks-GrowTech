@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      min-height: 100vh;
+      background-color: #0c131a;
+}
+
+.image {
+    position: block;
+    width: 100vw;
+    height: 90vh;
+    filter: grayscale(60%);
+}
+
+.text {
+    position: absolute;
+    font-size: 18px;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    width: 60%;
+}
+  
+.text > h1 {
+    font-size: 60px;
+    color: #d3d4d6;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+  
+.text > h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px black;
+}

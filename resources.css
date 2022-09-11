@@ -1,0 +1,38 @@
+.resources > h1 {
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 15px 50px 10px 75px;
+    color: rgb(4, 4, 37);
+}
+
+.resources > h2 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 50px 20px 100px;
+}
+
+.resources > p, .resources > a {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0 50px 10px 120px;
+}
+
+.top {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    background-color: #585656; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 2rem; 
+    font-size: 18px; 
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

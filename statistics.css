@@ -1,0 +1,13 @@
+canvas {
+    max-width: 60vw !important;
+    max-height: 60vh !important;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    padding-top: 5vh;
+}
+
+.text {
+    padding: 50px 100px 75px 100px;
+}
